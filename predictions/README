@@ -1,0 +1,21 @@
+## Frontend Integration
+
+This project includes an HTML interface for uploading images and displaying results based on the type of skin cancer detected.
+
+### Files Included
+
+- `frontend/index.html`: HTML file for image upload.
+- `frontend/cancer_type_1.html`: HTML file for displaying results for skin cancer type 1.
+- `frontend/cancer_type_2.html`: HTML file for displaying results for skin cancer type 2.
+- `frontend/cancer_type_3.html`: HTML file for displaying results for skin cancer type 3.
+- `src/frontend_integration.py`: Script for handling image uploads and predictions.
+- `models/your_model_file.h5`: The trained model used for predictions.
+
+### Usage Instructions
+
+1. Open the HTML file in a web browser:
+   - Navigate to `frontend/index.html` in your local file system.
+
+2. Upload an image using the provided form.
+
+3. The application will classify the image and redirect to the corresponding HTML file based on the detected skin cancer type
